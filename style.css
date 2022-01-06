@@ -1,0 +1,225 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.btn-style {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    background-color: #048af7;
+    padding: 12px 37px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    line-height: 80px;
+    color: #333333;
+}
+
+h1 span,
+h3 span {
+    color: #4f43ba;
+}
+
+h3 {
+    font-weight: 700;
+    color: #333;
+    font-size: 36px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    padding-top: 12px;
+    padding-bottom: 16px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3E3E3E;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #13103A;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.section-title span {
+    color: #4f43ba;
+}
+
+.banner {
+    margin-top: 80px;
+}
+
+.banner .text-area,
+.banner .image-area {
+    width: 50%;
+}
+
+.banner .image-area {
+    text-align: center;
+}
+
+.banner .title {
+    border-left: 4px solid #048af7;
+    padding-left: 13px;
+}
+
+.banner p {
+    padding: 20px 0;
+}
+
+.banner img {
+    width: 60%;
+}
+
+.mission .card {
+    width: 33.33%;
+    border-radius: 26px;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
+    margin: 0 12px;
+    padding: 25px 30px 45px 30px;
+}
+
+.mission .blue-color {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+.mission .red-color {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.mission .yellow-color {
+    background-color: #fff4d6;
+}
+
+.mission .card img {
+    width: 140px;
+}
+
+.about-top {
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+
+.about-bottom {
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: contain;
+}
+
+.about-img {
+    width: 40%;
+}
+
+.about-text {
+    width: 60%;
+}
+
+.about-top .about-text {
+    padding-left: 70px;
+}
+
+.about-bottom .about-text {
+    padding-right: 100px;
+}
+
+.about-text p {
+    padding: 20px 0;
+}
+
+.solution ul {
+    padding-bottom: 20px;
+}
+
+.solution p {
+    padding-top: 20px;
+}
+
+.solution img {
+    width: 70%;
+}
+
+footer {
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer h4 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+    color: #fff;
+}
+
+footer h4 span {
+    color: #048af7;
+}
+
+footer p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+    padding-top: 24px;
+}
